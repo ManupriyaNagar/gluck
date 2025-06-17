@@ -33,7 +33,7 @@ const Banner1 = () => {
         }}
       >
         {/* Text at the bottom */}
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-8">CURE & BEYOND</h1>
+
 
         {/* Scroll Icon */}
         <div

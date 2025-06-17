@@ -27,7 +27,7 @@ const Banner = () => {
     <>
       {/* Main Banner Slider */}
       {/* <div className="sticky w-full h-screen overflow-hidden"> */}
-      <div className="w-full h-[100vh] overflow-hidden sticky top-0 bg-gradient-to-t from-[#C71D52] to-[#d190a5]">
+      <div className="app-container h-[100vh] overflow-hidden sticky top-0 ">
         <AnimatePresence mode="wait">
         <motion.img
             key={bannerImages[current]}
@@ -60,14 +60,14 @@ const Banner = () => {
       </div>
 
       {/* Text Heading Overlay */}
-      <div className="absolute bottom-4 w-full text-center z-20">
+      <div className="app-container absolute bottom-4 w-full text-center z-20">
         <h1 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg">
           Beyond Medicine. A Mission Of Wellness
         </h1>
       </div>
       </div>
       {/* </div> */}
-      <div className="absolute bottom-0 left-0 w-full h-[40vh] pointer-events-none z-10 bg-gradient-to-t from-[#C71D52]  to-transparent opacity-90"></div>
+      <div className="absolute bottom-0 left-0 w-full h-[40vh] pointer-events-none z-10 bg-gradient-to-t from-[#C71D52] to-transparent opacity-90"></div>
     </>
   );
 };
