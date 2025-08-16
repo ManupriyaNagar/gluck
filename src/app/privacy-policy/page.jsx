@@ -288,14 +288,14 @@ const Page = () => {
               </p>
               <p className="text-sm text-gray-700">
                 📧 Email: <a href="mailto:care@gluckscare.com" className="text-blue-600 hover:underline">care@gluckscare.com</a><br/>
-                📞 Phone: [Phone Number]
+                📞 Phone: 993964486
               </p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-800 mb-3">Data Protection Officer:</h3>
               <p className="text-sm text-gray-700 mb-2">
                 📧 Email: <a href="mailto:privacy@gluckscare.com" className="text-blue-600 hover:underline">privacy@gluckscare.com</a><br/>
-                📞 Direct Line: [DPO Phone Number]
+              
               </p>
               <h3 className="font-semibold text-gray-800 mb-3 mt-4">Regulatory Compliance:</h3>
               <p className="text-sm text-gray-700">
