@@ -95,6 +95,8 @@ export default function Footer() {
               </ul>
             </div>
 
+            
+
             {/* Column 3 */}
             <div className="flex-1 min-w-[200px]">
               <h3 className="font-bold text-xl mb-2">Responsibility</h3>
@@ -172,7 +174,7 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-100">
             <p>© 2025 All rights reserved by Gluckscare Pharmaceuticals.</p>
             <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-              <a href="#" className="hover:underline">Privacy Policy</a>
+              <a href="privacy-policy" className="hover:underline">Privacy Policy</a>
               <span>|</span>
               <a href="#" className="hover:underline">Terms & Conditions</a>
               <span>|</span>
